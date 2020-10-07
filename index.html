@@ -4,16 +4,63 @@
 <head>
   <meta charset="utf-8">
   <title>Tarun Duggempudi</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href="favicon.ico">
+
+
+  <!-- Google Fonts-->
   <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Josefin+Sans&family=Montserrat&display=swap"
     rel="stylesheet">
+
+  <!-- CSS style Sheets  -->
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/d27c41d505.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
 </head>
 
 <body>
+
+  <!-- Nav Bar -->
+  <nav class="navbar-expand-lg navbar-dark navbar">
+    <a class="navbar-brand" href="">Tarun Duggempudi</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#footer">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/tarun-chakravarthy?tab=repositories">Personal Projects</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- Profile Description -->
   <div class="top-container">
     <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-    <h1>I'm, Tarun Duggempudii.</h1>
+    <h1>I'm, Tarun Duggempudi.</h1>
     <h2 class="f-weight">Web Developer.</h2>
     <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
     <img src="images/mountain.png" alt="mountain-img">
@@ -21,85 +68,104 @@
   <div class="middle-container">
     <div class="profile">
       <img src="images/tarun.png" alt="tarun duggempudi">
-      <p><em><strong>MIT Graduate</strong>,<a href="https://www.uow.edu.au/">UOW</a>.</em></p>
-      <h2>Hello,</h2>
-      <p align="justify" class="intro">I'm an information technology student form University of Wollongong, passionate
-        about developing web applications.
-        I am equipped with excellent problem-solving skills and ability to perform proven technical skills in a team.
-        Seeking to help your esteemed organisation as a full stack developer, as well as develop my personal and
-        professional skills as an individual.</p>
+      <p><em><strong>MIT Graduate</strong>,<a href="https://www.uow.edu.au/">UOW </a>.</em></p>
+      <h2>Hello World!</h2>
+      <p align="justify" class="intro">I'm a Frontend Software Engineer with real time project experience and a strong
+        engineering professional with a Master's degree focused in Information Technology from the University of
+        Wollongong. Passionate about developing web applications. Excellent problem-solving skills and the ability to
+        perform proven technical skill set in a team.
+        Seeking to work in your esteemed organisation to contribute my hard work and previous experience for mutual
+        growth.
+      </p>
     </div>
     <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="skill-img1" src="images/skills.png" alt="skills-image">
-        <h3>Programming Skills</h3>
-        <table class="skill-table" border="2" align="center">
-          <td>
-            HTML, CSS, JavaScript, jQuery, Bootstrap
-          </td>
-          <td>⭐⭐⭐⭐⭐</td>
-          <td>PHP</td>
-          <td>⭐⭐⭐⭐⭐</td>
-          <tr>
-            <td>Python Programmer</td>
-            <td>⭐⭐⭐⭐</td>
-            <td>MySQL proficiency</td>
-            <td>⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Type Script</td>
-            <td>⭐⭐⭐⭐</td>
-            <td>React JS</td>
-            <td>⭐⭐⭐⭐</td>
-          </tr>
-        </table>
-      </div>
-      <div class="skill-row">
-        <img class="skill-img2" src="images/occupation.svg" alt="occupation-img">
-        <h3>Experience</h3>
-        <table class="occp-table" border="2" align="center">
+
+    <!-- Experience Section -->
+    <section id="experience">
+      <h2><i class="profile-img fas fa-user-tie fa-2x p-1"></i>Professional Experience.</h2>
+      <div class="section-table">
+        <table class="table table-bordered">
           <thead>
             <tr>
-              <th>Dates</th>
-              <th>Work</th>
+              <th scope="col">Company</th>
+              <th scope="col">Role</th>
+              <th scope="col">Duration</th>
+              <th scope="col">Location</th>
             </tr>
           </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Tiliter </th>
+              <td>Frontend Software Engineer (Full-time)</td>
+              <td>07/2020 - 10/2020</td>
+              <td>Sydney, Australia</td>
+            </tr>
+            <tr>
+              <th scope="row">University of Wollongong</th>
+              <td>Web Developer (Univatie Summer Program)</td>
+              <td>11/2019 - 04/2020</td>
+              <td>Wollongong, Australia</td>
+            </tr>
+            <tr>
+              <th scope="row">Ingresos</th>
+              <td>Frontend Web Developer (part-Time)</td>
+              <td>03/2017 - 09/2017</td>
+              <td>Hyderabad, India</td>
+            </tr>
+            <tr>
+              <th scope="row">Ajna Networks</th>
+              <td>Frontend Web Developer (Internship)</td>
+              <td>06/2016 - 01/2017</td>
+              <td>Hyderabad, India</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Skill Section -->
+    <section>
+      <div class="section-table">
+        <table class="table table-bordered text-justify">
+          <h2>Skills <i class="fas fa-file-code fa-2x p-1"></i></h2>
           <tr>
-            <td>01/2020 – 03/2020</td>
-            <td>Web Programming</td>
+            <th>Frontend Programming skills</th>
+            <td>
+              Angular9, Javascript, Typescript, jQuery, HTML5, CSS, SCSS, Bootstrap4
+            </td>
           </tr>
           <tr>
-            <td>06/2017 - 11/2017</td>
-            <td> Web Developer (part-time)</td>
+            <th>Backend knowledge</th>
+            <td>PHP5, Python(Django), Xampp Server, NodeJS, ExpressJS, angular.js</td>
           </tr>
           <tr>
-            <td>06/2016 - 02/2017</td>
-            <td>Frontend Web Developer (Internship)</td>
-          </tr>
-          <tr>
-            <td>12/2016 - 02/2017</td>
-            <td>Front-End Wed Developer (Internship)</td>
+            <th>Database</th>
+            <td>MySQL, MongoDB, Microsoft Azure services</td>
           </tr>
         </table>
       </div>
-    </div>
+    </section>
+
     <hr>
     <div class="contact-me">
       <h2>Get In Touch</h2>
-      <h3>Want to try my web develoment skill?</h3>
-      <p>Use any of the following links to scocialse with me.</p>
+      <h3>Want to try my web development skill?</h3>
+      <p>Use any of the following links to get in touch with me.</p>
       <a href="mailto:tarun.mail09@gmail.com" class="btn">CONTACT ME</a>
     </div>
   </div>
 
 
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/tarun-chakravarthy-duggempudi-429773159/">LinkedIn</a>
-    <a class="footer-link" href="https://twitter.com/tarunchowdary5">Twitter</a>
-    <a class="footer-link" href="https://www.youtube.com/yoursfilmy">Youtube</a>
-    <p class="copyright">© 2020 Tarun Duggempudii.</p>
+  <div id="footer" class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/tarun-chakravarthy-duggempudi-429773159/"><i
+        class="icon fab fa-linkedin"></i>LinkedIn</a>
+    <a class="footer-link" href="https://github.com/tarun-chakravarthy?tab=repositories"><i
+        class="icon fab fa-github-square"></i>Github</a>
+    <a class="footer-link" href="https://twitter.com/tarunchowdary5"><i
+        class="icon fab fa-twitter-square"></i>Twitter</a>
+    <a class="footer-link" href="https://www.youtube.com/yoursfilmy"><i
+        class="icon fab fa-youtube-square"></i>Youtube</a>
+    <p class="copyright">© 2020 Tarun Duggempudi.</p>
   </div>
 
 
